@@ -6,7 +6,7 @@ export default function App() {
     console.log('index', index());
     return (
         <View style={styles.container}>
-            <Text>This is the patient app</Text>
+            <Text>This is the doctor app</Text>
             <StatusBar style="auto" />
         </View>
     );
