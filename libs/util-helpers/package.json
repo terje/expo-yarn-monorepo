@@ -1,0 +1,13 @@
+{
+    "name": "util-helpers",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "license": "MIT",
+    "scripts": {
+        "ts:check": "tsc"
+    },
+    "dependencies": {
+        "tslib": "^2.3.0"
+    },
+    "type": "commonjs"
+}
