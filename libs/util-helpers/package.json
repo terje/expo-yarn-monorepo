@@ -1,13 +1,14 @@
 {
-    "name": "@youwell/util-helpers",
-    "version": "1.0.0",
-    "main": "src/index.ts",
-    "license": "MIT",
-    "scripts": {
-        "ts:check": "tsc"
-    },
-    "dependencies": {
-        "tslib": "^2.3.0"
-    },
-    "type": "commonjs"
+  "name": "@youwell/util-helpers",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "ts:check": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs"
 }
