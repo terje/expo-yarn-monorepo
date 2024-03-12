@@ -1,0 +1,77 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-native-a11y/ios",
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "ignorePatterns": [
+    "dist",
+    "node_modules",
+    "examples",
+    "scripts"
+  ],
+  "rules": {
+    "max-len": "off",
+    "@typescript-eslint/indent": "off",
+    "indent": [
+      "warn",
+      4
+    ],
+    "react/jsx-indent": [
+      "warn",
+      4
+    ],
+    "react/jsx-indent-props": [
+      "warn",
+      4
+    ],
+    "no-console": "warn",
+    "@typescript-eslint/no-use-before-define": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "react/function-component-definition": "off",
+    "react/require-default-props": "off",
+    "no-nested-ternary": "off",
+    "react-native-a11y/has-accessibility-hint": "off",
+    "no-underscore-dangle": [
+      "off"
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": [
+          "state"
+        ]
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "off",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "react/jsx-props-no-spreading": "off"
+  }
+}
