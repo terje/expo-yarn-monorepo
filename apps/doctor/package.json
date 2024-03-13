@@ -1,7 +1,7 @@
 {
   "name": "doctor",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -11,13 +11,18 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@youwell/util-helpers": "*",
     "@types/react": "*",
     "expo": "*",
+    "expo-constants": "*",
+    "expo-linking": "*",
+    "expo-router": "*",
     "expo-status-bar": "*",
     "react": "*",
     "react-native": "*",
-    "typescript": "*"
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "typescript": "*",
+    "util-helpers": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

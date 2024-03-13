@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { Slot } from 'expo-router';
 import { Color } from '@youwell/util-helpers';
 
-export default function App() {
+export default function _RootLayout() {
     return (
         <View style={styles.container}>
-            <Text>This is the doctor app</Text>
-            <StatusBar style={Color.statusBarStyle('#FFFFFF')} />
+            <StatusBar style={Color.statusBarStyle('#FFAA00')} />
+            <Slot />
         </View>
     );
 }
@@ -14,7 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#FFAA00',
         alignItems: 'center',
         justifyContent: 'center',
     },
